@@ -40,3 +40,4 @@ class NeuralNetwork:
         self.weights = self.weights - (
             derror_dweights * self.learning_rate
         )
+        
